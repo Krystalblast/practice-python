@@ -1,0 +1,12 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    sortArr = sorted(arr)
+    maxArr = max(sortArr)
+    nMax = 0
+    
+    for i in sortArr:
+        if i == maxArr:
+            nMax+=1
+    
+    print(sortArr[n-(nMax+1)])
