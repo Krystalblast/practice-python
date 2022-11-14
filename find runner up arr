@@ -1,3 +1,7 @@
+#find runner up score from input number
+#firstinput is n, the amount of number scores
+#secondinput is an arr of the number score 
+
 if __name__ == '__main__':
     n = int(input())
     arr = map(int, input().split())
