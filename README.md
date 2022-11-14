@@ -1,2 +1,2 @@
 # practice-python
-## from HackerRanck coding challege 
+## from HackerRank coding challege 
