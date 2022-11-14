@@ -1,0 +1,8 @@
+#find the name of 2 students, 
+#  the first student is who get the lowest score
+#  the second student is who get the second lowest score
+
+if __name__ == '__main__':
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
